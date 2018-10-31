@@ -11,7 +11,6 @@ use chrono::{TimeZone, Utc};
 use github::{get_pull_requests, PullRequest};
 use mattermost::{post_to_mattermost, Mattermost};
 use std::env;
-use std::io::Error;
 
 fn main() {
     let args = env::args().collect::<Vec<String>>();

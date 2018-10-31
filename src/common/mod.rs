@@ -1,9 +1,8 @@
 extern crate reqwest;
 
-use self::reqwest::header::{HeaderMap, HeaderValue, AUTHORIZATION};
-use serde::{Deserialize, Serialize};
+use serde::Deserialize;
 use std::collections::HashMap;
-use std::fmt::{Debug, Display};
+use std::fmt::Debug;
 use std::io::Error;
 use std::io::ErrorKind;
 

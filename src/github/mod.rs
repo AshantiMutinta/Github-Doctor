@@ -1,8 +1,5 @@
 use common::get;
-use serde_json;
 use std::io::Error;
-use std::io::ErrorKind;
-use std::time::SystemTime;
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct PullRequest {

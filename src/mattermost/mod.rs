@@ -1,9 +1,7 @@
-use chrono::{prelude::*, DateTime, NaiveDateTime, TimeZone, Utc};
+use chrono::{TimeZone, Utc};
 use common::post;
 use github::PullRequest;
-use serde_json;
 use std::collections::HashMap;
-use std::fmt;
 use std::io::Error;
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
