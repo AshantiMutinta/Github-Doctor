@@ -1,0 +1,12 @@
+[package]
+name = "matterpull"
+version = "0.1.0"
+authors = ["Purple Hair Rust Bard <AshantiMutinta@gmail.com>"]
+
+[dependencies]
+reqwest = "0.9.2"
+serde="1.0.8"
+serde_json = "1.0.32"
+serde_derive = "1.0.80"
+chrono="0.4.0"
+
